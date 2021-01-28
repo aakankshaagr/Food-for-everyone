@@ -1,0 +1,226 @@
+{% extends 'base.html' %}
+  
+  {% block head %}
+    
+  {% endblock head %}
+    
+{% block title %}
+    HOME
+{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid px-0 ">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" data-interval="3000">
+    <div class="carousel-item active">
+      <img src="/static/foodpics/f24.jpg" class="d-block w-100" alt="..." class="d-block img-fluid">
+      <div class="carousel-caption" style="font-family: 'Dancing Script', cursive; color:chocolate; position:absolute; top:20%; left:50%;font-size:65px;">
+            <b><i>Food For Everyone</i></b>     
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="/static/foodpics/ff17.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="/static/foodpics/f23.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev color-black" href="#carouselExampleCaptions" role="button"  data-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+<div class="container-fluid my-5">
+<div class="container my-7">
+<div class="row my-4">
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="/static/foodpics/recycl.jpg" width="140" height="140"
+      alt="Generic placeholder image" style="position: relative;right: -108px; background:white" >
+    <h2 style="text-align: center;">Reduce</h2>
+    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna.</p>
+    
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="/static/foodpics/reducee1.jpg"
+      alt="Generic placeholder image" width="140" height="140" style="position: relative; right: -108px;">
+    <h2 style="text-align: center;">Reuse</h2>
+    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+  </div> 
+  <div class="col-lg-4">
+    <img class="rounded-circle" src="/static/foodpics/recycle11.jpg"
+      alt="Generic placeholder image" width="140" height="140" style="position: relative;right: -108px;">
+    <h2 style="text-align: center;">Recycle</h2>
+    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.tortor mauris condimentum nibh, ut fermentum massa justo
+      sit amet risus.</p>
+    
+  </div>
+</div>
+</div>
+</div>
+<hr class="featurette-divider">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/static/foodpics/bday.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 content">
+        <h3>Birthday Parties</h3>
+          <p><span>$189</span></p>
+        <p class="font-italic">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+        <ul>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        </ul>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur
+        </p>
+        </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/static/foodpics/event-private.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 content">
+        <h3>Private Parties</h3>
+          <p><span>$290</span></p>
+        <p class="font-italic">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+        <ul>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        </ul>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur
+        </p>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="/static/foodpics/event-custom.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 pt-4 pt-lg-0 content">
+        <h3>Custom Parties</h3>
+        <p><span>$99</span></p>
+        <p class="font-italic">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+        <ul>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+          <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+          <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        </ul>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur
+        </p>
+      </div>
+    </div>
+  </div>
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+<hr class="featurette-divider">
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+            dy=".3em">Thumbnail</text>
+        </svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+            dy=".3em">Thumbnail</text>
+        </svg>
+        <div class="card-body">
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+            </div>
+            <small class="text-muted">9 mins</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+{% endblock body %}
+   
+
+
